@@ -1,0 +1,20 @@
+{
+  "name": "AppService Terraform Demo",
+  "dockerFile": "Dockerfile",
+  "context": ".",
+  "workspaceFolder": "/workspaces/terraform-azure-appservice-demo",
+  "settings": {
+    "go.toolsManagement.autoUpdate": true,
+    "editor.formatOnSave": true
+  },
+  "extensions": [
+    "golang.go",
+    "hashicorp.terraform",
+    "ms-azuretools.vscode-azureterraform",
+    "github.vscode-github-actions"
+  ],
+  "forwardPorts": [
+    3000
+  ],
+  "remoteUser": "vscode"
+}
