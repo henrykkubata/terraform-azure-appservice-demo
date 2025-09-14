@@ -1,0 +1,8 @@
+# Local environment variables
+.envdev
+.envdev.*
+
+# Terraform files
+*.tfstate
+*.tfstate.backup
+.terraform/
