@@ -25,7 +25,7 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t $ACR_NAME.azurecr.io/demo-go-app:latest ./docker
+          docker build -t $ACR_NAME.azurecr.io/demo-go-app:latest ./app
 
       - name: Push Docker image to ACR
         run: |
